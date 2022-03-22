@@ -1,0 +1,43 @@
+.imgCont {
+  margin: auto;
+}
+
+.img {
+  animation:imageBoucne 2s infinite linear;
+}
+@keyframes imageBoucne {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+.rate {
+  background-color:var(--dark-blue) ;
+  width: fit-content;
+  height: 40px;
+  padding:5px 20px ;
+  margin: auto;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--orange);
+}
+
+.description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.title{
+  font-size: 2rem;
+  color: var(--white);
+}
+.text {
+  line-height: 1.5;
+  color: var(--light-gray);
+}

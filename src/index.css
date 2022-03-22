@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: 'Overpass';
+  src:url(./assets/fonts/Overpass-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Overpass';
+  src:url(./assets/fonts/Overpass-Regular.ttf);
+  font-weight: 400;
+}
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Overpass';
+  font-size: 15px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --orange:hsl(25, 97%, 53%); 
+  --white:hsl(0, 0%, 100%);
+  --light-gray:hsl(217, 12%, 63%);
+  --medium-gray:hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue:hsl(216, 12%, 8%);
+  overflow: hidden;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--very-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 30px;
+  width: 90%;
+  height: 420px;
+  max-width: 400px;
+  padding: 30px;
+  background: radial-gradient(circle at top, #313949 -50%, #171e28 50% 100%);
+  background-size: 150% 200%;
+  background-position: center;
+  background: linear-gradient();
+  display: grid;
+}
+
+@media (max-width : 281px) {
+    .card {
+      width: 300px;
+      transform: scale(.7);
+    }
+}
