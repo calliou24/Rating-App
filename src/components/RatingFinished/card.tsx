@@ -15,8 +15,8 @@ function Card({ rate = 0 }) {
       <div className={styles.description}>
         <h1 className={styles.title}>Thank you!</h1>
         <p className={styles.text}>
-          We aprpreciate your taking the time to give a rating if you ever need
-          more support, don't hesiate to get in touch!
+          We aprereciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
         </p>
       </div>
     </div>

@@ -51,8 +51,8 @@ function Form({
       </div>
       <h1 className={styles.title}>How did we do?</h1>
       <p className={styles.text}>
-        Please let us know how we did with your support requeest. All feedback
-        is a appreciated to help us improve in our offering!
+        Please let us know how we did with your support request. All feedback
+        is appreciated to help us improve in our offering!
       </p>
       <div className={styles.footerCard}>
         <div className={styles.btnsCont}>
